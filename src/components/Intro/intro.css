@@ -1,0 +1,86 @@
+.githubButton {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: white;
+    color: black;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.githubButton:hover {
+    background-color: yellow;
+    transform: translateY(-3px);
+}
+
+.githubButton:active {
+    background-color:yellow;
+    transform: translateY(0);
+}
+
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    top: -4rem;
+    z-index: -1;
+    right: 0;
+    object-fit: cover;
+    height: 200vh;
+}
+
+.introContent {
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: yellow;
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:840px) {
+    .bg {
+        right: -10vw;
+    }
+
+    .introContent {
+        font-size: 10vw;
+    }
+
+    .hello {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .bg {
+        right: -10vw;
+    }
+}
+
