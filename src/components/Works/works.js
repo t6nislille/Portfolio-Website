@@ -15,7 +15,7 @@ const Works = () => {
                  <div className='worksList'>
                     <img src={calkulatorApp} alt="calkulatorApp" className='worksListImg'/>
                     <div className='worksListText'>
-                        <h2> Scientific Calculator </h2>
+                    <h2><a href='https://github.com/t6nislille/ScientificCalculator' target='_blank' rel='noopener noreferrer'>Scientific Calculator</a></h2>
                         <p> .MAUI app, developed with C# and XML. </p>
                     </div>
                 </div>
@@ -23,7 +23,7 @@ const Works = () => {
                 <div className='worksList'>
                     <img src={gymAppIcon} alt="gymAppIcon" className='worksListImg'/>
                     <div className='worksListText'>
-                        <h2> Exercise Helper </h2>
+                    <h2><a href='https://github.com/t6nislille/ProjectSsentifGenie' target='_blank' rel='noopener noreferrer'>Gym Helper</a></h2>
                         <p> .MAUI app, developed with C# and XML. </p>
                         
                     </div>
@@ -32,7 +32,7 @@ const Works = () => {
                 <div className='worksList'>
                     <img src={jobScrapeIcon} alt="jobScrapeIcon" className='worksListImg'/>
                     <div className='worksListText'>
-                        <h2> Job Site Scraper </h2>
+                    <h2><a href='https://github.com/t6nislille/Job-List-Scraping' target='_blank' rel='noopener noreferrer'>Job Site Scraper</a></h2>
                         <p> Developed with Python </p>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const Works = () => {
                 <div className='worksList'>
                     <img src={projectSiteIcon} alt="projectSiteIcon" className='worksListImg'/>
                     <div className='worksListText'>
-                        <h2> Portfolio Website </h2>
+                    <h2><a href='https://github.com/t6nislille/Job-List-Scraping' target='_blank' rel='noopener noreferrer'>Portfolio Website</a></h2>
                         <p> Developed with ReactJS </p>
                     </div>
                 </div>
