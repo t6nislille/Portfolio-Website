@@ -20,35 +20,78 @@
     font-weight: 300;
     font-size: 1rem;
     max-width: 45rem;
+    justify-content: center;
 }
 
 .worksLists {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100vw;
     max-width: 65rem;
-    background: rgb(50, 50, 50);
     margin: 0.5rem;
 }
 
 .worksList {
+    display: flex;
+    flex-direction: column;
     object-fit: cover;
-    height: 20rem;
     margin: 0.5rem;
+    flex: 1 1 calc(33.333% - 1rem);
+    max-width: calc(33.333% - 1rem);
+    background: rgb(50, 50, 50);
+    border: 1px solid black;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.worksListImg {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 15rem;
+    margin: 0rem;
+    padding: 0.5rem;
+    max-width: 100%;  
+    max-height: 100%;
+    
 }
 
 @media screen and (max-width:585px) {
     .worksList {
-        height:48vw;
+        flex: 1 1 100%;
+        max-width: 100%;
     }
 }
 
-.worksListImg {
-    object-fit: fit;
-    height: 15rem;
-    margin: 0.5rem;
-    flex-wrap: wrap;
-    max-width: 30rem;
+.worksContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectButton {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.1rem 0.1rem;
+    background-color: rgb(134, 129, 129);
+    color: rgb(50, 50, 50);
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 0.75rem;
+    margin: 0.5rem auto;
+    font-size: 1rem;
+    align-self: flex-end;
+}
+
+.projectButton:hover {
+    background-color: yellow;
+    transform: translateY(-3px);
+}
+
+.projectButton:active {
+    background-color:yellow;
+    transform: translateY(0);
 }
