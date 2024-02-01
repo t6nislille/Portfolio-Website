@@ -25,7 +25,7 @@ const Skills = () => {
                     <img src={backEndIcon} alt="backEndIcon" className='skillBarImg'/>
                     <div className='skillBarText'>
                         <h2>Back-End Development</h2>
-                        <p>Server-side scripting languages like Node.js (JavaScript), Python (Django or Flask), Ruby (Ruby on Rails), or Java.
+                        <p>Server-side scripting languages like Node.js, Python, PHP or C#.
                         Familiarity with databases such as MySQL, PostgreSQL, or MongoDB.
                         Knowledge of server-side frameworks and APIs.</p>
                     </div>
