@@ -20,6 +20,11 @@
     width: 5rem;
 }
 
+.myName {
+    color: yellow;
+    width: 100%;
+}
+
 .desktopMenuListItem {
     margin: 1rem;
     cursor: pointer;
