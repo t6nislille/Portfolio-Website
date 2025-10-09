@@ -1,10 +1,19 @@
 import React from 'react'
+// import Swiper core and required modules
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import './works.css';
 import calkulatorApp from '../../assets/calculatorAppIcon.png';
 import gymAppIcon from '../../assets/gymAppIcon.png'
 import projectSiteIcon from '../../assets/portfolioProjectIcon.png'
 import jobScrapeIcon from '../../assets/webScrapePic02.png'
 import ProjectHouseIcon from '../../assets/ProjectHouseIcon02.png'
+
+
+
+
+
+
 
 const Works = () => {
     return (
