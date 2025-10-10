@@ -36,6 +36,9 @@ const projects = [
 const carousell = () => {
     return (
         <section id='carousell'>
+            <h2 className='carousell-title'>My Portfolio</h2>
+            <span className='carousell-desc'>Featured Projects</span>
+
             <Swiper
                 pagination = {True}
             />
