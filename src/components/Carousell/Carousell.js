@@ -49,6 +49,19 @@ const carousell = () => {
                 scrollbar={{ draggable: true }}
                 className='carousell-swiper'
             />
+            
+            {projects.map((projects, index) => (
+                <SwiperSlide key={index}>
+                    <div className='project-slide'>
+                        <img src={projects.img} alt={projects.title} className="slider-img"></img>
+                        <div className='slider-text'>
+                            <h3>{projects.title}</h3>
+                            <p>{projects.desc}</p>
+                        </div>
+
+                    </div>
+                </SwiperSlide>
+            ))}
         </section>
     )
 };
