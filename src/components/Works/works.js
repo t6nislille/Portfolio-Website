@@ -33,6 +33,10 @@ const projects = [
 
 ];
 
+// carousell component for slider
+const carousell = () => {
+
+};
 
 
 
