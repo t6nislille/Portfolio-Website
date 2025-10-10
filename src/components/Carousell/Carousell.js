@@ -1,3 +1,4 @@
+import './carousell.css';
 // Import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -33,7 +34,13 @@ const projects = [
 
 // carousell component for slider
 const carousell = () => {
-
+    return (
+        <section id='carousell'>
+            <Swiper
+                pagination = {True}
+            />
+        </section>
+    )
 };
 
 export default carousell;
