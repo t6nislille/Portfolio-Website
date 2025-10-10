@@ -40,7 +40,14 @@ const carousell = () => {
             <span className='carousell-desc'>Featured Projects</span>
 
             <Swiper
-                pagination = {True}
+            // swiper modules
+                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                spaceBetween={50}
+                slidesPerView={3}
+                navigation
+                pagination={{ clickable: true }}
+                scrollbar={{ draggable: true }}
+                className='carousell-swiper'
             />
         </section>
     )
