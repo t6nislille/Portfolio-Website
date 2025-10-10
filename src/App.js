@@ -4,6 +4,8 @@ import Skills from "./components/Skills/skills.js";
 import Works from "./components/Works/works.js";
 import Contact from "./components/Contact/contact.js";
 import Footer from "./components/Footer/footer.js";
+import Carousell from "./components/Carousell/Carousell.js"
+
 
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
       <Navbar/>
       <Intro/>
       <Skills/>
+      <Carousell/>
       <Works/>
       <Contact/>
       <Footer/>
