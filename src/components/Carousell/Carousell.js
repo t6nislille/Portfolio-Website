@@ -48,7 +48,7 @@ const carousell = () => {
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
                 className='carousell-swiper'
-            />
+            >
             
             {projects.map((projects, index) => (
                 <SwiperSlide key={index}>
@@ -62,6 +62,7 @@ const carousell = () => {
                     </div>
                 </SwiperSlide>
             ))}
+            </Swiper>
         </section>
     )
 };
