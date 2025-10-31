@@ -29,13 +29,13 @@ const projects = [
     {
         img: jupiterIcon,
         title: "Jupiter Clone",
-        desc: "A responsive Angular application that fetches data from a JSON API and displays it using a scrollable UI component.",
+        desc: "A responsive Angular application that fetches data from a JSON API and displays it.",
         link: "https://github.com/t6nislille/Jupiter-Err"
     },
     {
         img: testingIcon,
         title: "Testing With Playwright",
-        desc: "Automated test suite built using Playwright",
+        desc: "Automated test suite built using Playwright to validate critical functionalities.",
         link: "https://github.com/t6nislille/TestingWithPlaywright"
     },
     {
@@ -47,7 +47,7 @@ const projects = [
     {
         img: projectSiteIcon,
         title: 'Portfolio Website',
-        desc: 'Portfolio website to bring forward my skills and projects. Developed with ReactJS.',
+        desc: 'Portfolio website to bring forward my skills. Developed with ReactJS.',
         link: 'https://github.com/t6nislille/Portfolio-Website',
     },
     
@@ -79,6 +79,12 @@ const carousell = () => {
                         <div className='slider-text'>
                             <h3>{projects.title}</h3>
                             <p>{projects.desc}</p>
+                            <a
+                             href={projects.link}
+                             target="_blank"
+                             rel="noopener noreferrer"
+                             className="projectButton"
+                             ></a>
                         </div>
 
                     </div>
