@@ -13,10 +13,31 @@ import gymAppIcon from '../../assets/gymAppIcon.png';
 import projectSiteIcon from '../../assets/portfolioProjectIcon.png';
 import jobScrapeIcon from '../../assets/webScrapePic02.png';
 import ProjectHouseIcon from '../../assets/ProjectHouseIcon02.png';
+import testingIcon from '../../assets/playwrightTest.png';
+import positionapi from '../../assets/position-api.png';
+import jupiterIcon from '../../assets/jupiter-screenshot.png';
 
 
 // list of projects
 const projects = [
+    {
+        img: positionapi,
+        title: "PositionAPI",
+        desc: "Simple REST API built with Flask that fetches real time flight information from Aviationstack API.",
+        link: "https://github.com/t6nislille/position-api"
+    },
+    {
+        img: jupiterIcon,
+        title: "Jupiter Clone",
+        desc: "A responsive Angular application that fetches data from a JSON API and displays it using a scrollable UI component.",
+        link: "https://github.com/t6nislille/Jupiter-Err"
+    },
+    {
+        img: testingIcon,
+        title: "Testing With Playwright",
+        desc: "Automated test suite built using Playwright",
+        link: "https://github.com/t6nislille/TestingWithPlaywright"
+    },
     {
         img: jobScrapeIcon,
         title: 'Job Listing Scraper',
@@ -28,7 +49,8 @@ const projects = [
         title: 'Portfolio Website',
         desc: 'Portfolio website to bring forward my skills and projects. Developed with ReactJS.',
         link: 'https://github.com/t6nislille/Portfolio-Website',
-    }
+    },
+    
 
 ];
 
