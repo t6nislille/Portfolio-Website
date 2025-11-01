@@ -1,6 +1,6 @@
 import './carousell.css';
 // Import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
@@ -63,12 +63,11 @@ const carousell = () => {
 
             <Swiper
             // swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                modules={[Navigation, Pagination, A11y]}
                 spaceBetween={50}
                 slidesPerView={3}
                 navigation
                 pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
                 className='carousell-swiper'
             >
             
