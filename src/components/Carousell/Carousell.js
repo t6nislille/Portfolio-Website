@@ -8,8 +8,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 // Project images
-import calkulatorApp from '../../assets/calculatorAppIcon.png';
-import gymAppIcon from '../../assets/gymAppIcon.png';
 import projectSiteIcon from '../../assets/portfolioProjectIcon.png';
 import jobScrapeIcon from '../../assets/webScrapePic02.png';
 import ProjectHouseIcon from '../../assets/ProjectHouseIcon02.png';
