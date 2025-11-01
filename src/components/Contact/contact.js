@@ -2,6 +2,7 @@ import React, {useRef} from 'react';
 import './contact.css';
 import FacebookIcon from '../../assets/facebook-icon.png';
 import InstagramIcon from '../../assets/instagram.png';
+import LinkedinIcon from '../../assets/linkedinIcon2.png';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -40,6 +41,9 @@ const Contact = () => {
                     </a>
                     <a href="https://www.instagram.com/t6nnis/" target="_blank" rel="noopener noreferrer">
                         <img src={InstagramIcon} alt="Instagram" className='link'/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/t%C3%B5nis-lille-ab731b346/" target="_blank" rel="noopener noreferrer">
+                        <img src={LinkedinIcon} alt="Instagram" className='link'/>
                     </a>
                 </div>
             </form>
