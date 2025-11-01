@@ -34,9 +34,15 @@ const projects = [
     },
     {
         img: testingIcon,
-        title: "Testing With Playwright",
+        title: "Unit Testing",
         desc: "Automated test suite built using Playwright to validate critical functionalities.",
         link: "https://github.com/t6nislille/TestingWithPlaywright"
+    },
+    {
+        img: projectSiteIcon,
+        title: 'Portfolio Website',
+        desc: 'Portfolio website to bring forward my skills. Developed with ReactJS.',
+        link: 'https://github.com/t6nislille/Portfolio-Website',
     },
     {
         img: jobScrapeIcon,
@@ -45,11 +51,12 @@ const projects = [
         link: 'https://github.com/t6nislille/Job-List-Scraping',
     },
     {
-        img: projectSiteIcon,
-        title: 'Portfolio Website',
-        desc: 'Portfolio website to bring forward my skills. Developed with ReactJS.',
-        link: 'https://github.com/t6nislille/Portfolio-Website',
-    },
+        img: ProjectHouseIcon,
+        title: 'CRUD',
+        desc: '.NET real estate CRUD with a database connection, developed with c#',
+        link: "https://github.com/t6nislille/House"
+    }
+    
     
 
 ];
@@ -69,6 +76,20 @@ const carousell = () => {
                 navigation
                 pagination={{ clickable: true }}
                 className='carousell-swiper'
+                breakpoints={{
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    },
+                    668: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    0: {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                    },
+                }}
             >
             
             {projects.map((projects, index) => (
@@ -83,9 +104,8 @@ const carousell = () => {
                              target="_blank"
                              rel="noopener noreferrer"
                              className="projectButton"
-                             ></a>
+                             >GitHub</a>
                         </div>
-
                     </div>
                 </SwiperSlide>
             ))}
