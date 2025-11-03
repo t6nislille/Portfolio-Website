@@ -137,14 +137,10 @@
 }
 
 .swiper-button-prev::after {
-  right: 50px;
+  right: -50px;
   color: #fff;
 }
 
-.swiper-button-next {
-   margin-left: 100px;
-   right: 50px;
-}
 
 @media screen and (max-width:765px) {
     .swiper-button-next,
