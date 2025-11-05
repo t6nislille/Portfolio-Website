@@ -85,7 +85,7 @@ const carousell = () => {
                     },
                     0: {
                         slidesPerView: 1,
-                        spaceBetween: 10,
+                        spaceBetween: 0,
                     },
                 }}
             >
