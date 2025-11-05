@@ -35,7 +35,7 @@
   width: 90%;
 }
 
-@media screen and (max-width:985px) {
+@media screen and (max-width:586px) {
     .carousell-swiper {
       height: 500px;
       ;
@@ -50,11 +50,10 @@
   justify-content: center;
 }
 
-@media screen and (max-width:485px) {
+@media screen and (max-width: 480px) {
     .swiper-slide {
         flex: 1 1 100%;
         max-width: 100%;
-        max-height: 90%;
         padding: 5px;
     }
 }
@@ -68,20 +67,19 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px;
   border-radius: 16px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
   background: rgb(50, 50, 50);
   overflow: visible;
   text-align: center;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width:485px) {
+@media screen and (max-width:586px) {
     .project-slide {
         flex: 1 1 100%;
-        max-width: 100%;
-        max-height: 300px;
-        min-height: 320px;
+        min-height: auto;
         padding: 10px;
     }
 }
@@ -135,10 +133,11 @@
   margin-bottom: 10px;
 }
 
-@media screen and (max-width:585px) {
+@media screen and (max-width:480px) {
     .projectButton {
-        margin-top:auto;
-        margin-bottom: auto;
+        margin-top:10px;
+        margin-bottom: 0px;
+        align-self: center;
     }
 }
 
@@ -177,3 +176,4 @@
   visibility: hidden;
   pointer-events: none;
 }
+

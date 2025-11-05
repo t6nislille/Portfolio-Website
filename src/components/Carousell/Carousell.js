@@ -76,14 +76,14 @@ const carousell = () => {
                 className='carousell-swiper'
                 breakpoints={{
                     1024: {
-                        slidesPerView: 3,
+                        slidesPerView: 4,
                         spaceBetween: 30,
                     },
-                    668: {
+                    768: {
                         slidesPerView: 2,
                         spaceBetween: 20,
                     },
-                    0: {
+                    480: {
                         slidesPerView: 1,
                         spaceBetween: 10,
                     },
