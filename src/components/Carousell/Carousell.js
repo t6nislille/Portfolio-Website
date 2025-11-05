@@ -1,4 +1,3 @@
-import './carousell.css';
 // Import Swiper core and required modules
 import { Navigation, Pagination, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -7,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import './carousell.css';
 // Project images
 import projectSiteIcon from '../../assets/portfolioProjectIcon.png';
 import jobScrapeIcon from '../../assets/webScrapePic02.png';
@@ -65,7 +65,7 @@ const carousell = () => {
         <section id='carousell'>
             <h2 className='carousell-title'>My Portfolio</h2>
             <span className='carousell-desc'>Featured Projects</span>
-
+            <div class="swiper-wrapper-container">
             <Swiper
             // swiper modules
                 modules={[Navigation, Pagination, A11y]}
@@ -90,6 +90,7 @@ const carousell = () => {
                 }}
             >
             
+            
             {projects.map((projects, index) => (
                 <SwiperSlide key={index}>
                     <div className='project-slide'>
@@ -108,6 +109,7 @@ const carousell = () => {
                 </SwiperSlide>
             ))}
             </Swiper>
+            </div>
         </section>
     )
 };

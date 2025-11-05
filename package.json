@@ -36,6 +36,13 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "overrider": {
+      "source-map-loader": {
+        "exclude": [
+          "node_modules/swiper"
+        ]
+      }
+    }
   }
 }
