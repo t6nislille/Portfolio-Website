@@ -25,20 +25,20 @@
   position: relative;
 }
 
-@media screen and (max-width:885px) {
-  .carousell-swiper-container {
-    
-  }
-}
 
 .carousell-swiper {
   width: 90%;
 }
 
-@media screen and (max-width:586px) {
+@media screen and (max-width:768px) {
     .carousell-swiper {
       height: 500px;
-      ;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .carousell-swiper {
+      height: 500px;
     }
 }
 
@@ -76,7 +76,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width:586px) {
+@media screen and (max-width:480px) {
     .project-slide {
         flex: 1 1 100%;
         min-height: auto;
