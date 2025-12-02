@@ -14,10 +14,17 @@ import ProjectHouseIcon from '../../assets/ProjectHouseIcon02.png';
 import testingIcon from '../../assets/playwrightTest.png';
 import positionapi from '../../assets/position-api.png';
 import jupiterIcon from '../../assets/jupiter-screenshot.png';
+import salaryIcon from '../../assets/salary_market_IMG.png';
 
 
 // list of projects
 const projects = [
+    {
+        img: salaryIcon,
+        title: "Average Salary Analysis",
+        desc: "A web application to see average wages from STAT API and a trend summary using Groq",
+        link: "https://github.com/t6nislille/Salary-Market-Analysis.git"
+    },
     {
         img: positionapi,
         title: "PositionAPI",
