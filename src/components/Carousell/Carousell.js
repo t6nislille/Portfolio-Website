@@ -15,10 +15,17 @@ import testingIcon from '../../assets/playwrightTest.png';
 import positionapi from '../../assets/position-api.png';
 import jupiterIcon from '../../assets/jupiter-screenshot.png';
 import salaryIcon from '../../assets/salary_market_IMG.png';
+import balanceIcon from '../../assets/tarbimine_IMG.png';
 
 
 // list of projects
 const projects = [
+    {
+        img: balanceIcon,
+        title: "Balance Process Simulator",
+        desc: "Simulates balance management using actual consumption/production and balance price data.",
+        link: "https://github.com/t6nislille/Balance-Process-Simulator.git"
+    },
     {
         img: salaryIcon,
         title: "Average Salary Analysis",
